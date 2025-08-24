@@ -170,6 +170,6 @@ Contributions are welcome\! If you'd like to improve the project, please follow 
 
 This project was developed by:
 
--   **Mitesh Patel** - [GitHub Profile]
+-   **Mitesh Patel** - [GitHub Profile](https://github.com/Mitesh0101)
 -   **Jimit Patel** - [Github Profile]
 -   **Nihal Vohra** - [Github Profile]
