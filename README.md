@@ -166,8 +166,10 @@ Contributions are welcome\! If you'd like to improve the project, please follow 
 
 -----
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-  - **Mitesh Patel**
-  - **GitHub:** `[Link to Your GitHub Profile]`
-  - **Contact:** `miteshpatel0042@gmail.com`
+This project was developed by:
+
+-   **Mitesh Patel** - [GitHub Profile]
+-   **Jimit Patel** - [Github Profile]
+-   **Nihal Vohra** - [Github Profile]
