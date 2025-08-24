@@ -150,7 +150,7 @@ db.password=your_postgres_password
 ```
 
 ### Step 7: Build and Run
-Build the project to resolve all dependencies and then run the main application class from your IDE.
+Build the project to resolve all dependencies and then run the Main.java file from your IDE.
 
 -----
 
