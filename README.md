@@ -123,42 +123,53 @@ You must add the downloaded JavaFX and PostgreSQL JARs to your project's build p
 ### Step 4: Configure Source & Resource Folders (Crucial Step)
 To avoid a "Location is required" exception when loading FXML files, you must mark the resources directory as a Resource Root.
 
----
+In IntelliJ IDEA:
+- Go to File -> Project Structure... (or press Ctrl+Alt+Shift+S).
+- Select Modules from the left panel.
+- Expand your project structure in the center panel and find the src/main/resources folder.
+- Select the resources folder and click the Resources button from the menu above the file tree.
+- The folder icon should change color, indicating it's now a resource root.
+- Click Apply and then OK.
 
-## Usage
+This step ensures that the FXML files are correctly placed on the classpath and can be found by your application at runtime.
 
-- **User Registration:** Sign up as a citizen or officer, then log in.
-- **Apply for License:** Fill out the application, take the online exam, and track status.
-- **Register Vehicle:** Enter vehicle details and upload required documents.
-- **Issue/View E-Challan:** Officers can issue challans; users can view and pay them.
-- **Profile Management:** Update personal details and change password.
+### Step 5: Configure VM Options
+```sh
+--module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
+```
 
----
+### Step 6: Configure the Database Connection
+Locate the database configuration file in your project (e.g., `db.properties`, `config.java`). Update the JDBC connection string and credentials to match your PostgreSQL setup.
 
-## Screenshots
+**Important:** Ensure you are using the correct JDBC URL for PostgreSQL.
 
-> _Add screenshots of the login page, dashboard, license application, vehicle registration, and e-challan screens here._
+```properties
+db.url=jdbc:postgresql://localhost:5432/mvaahan
+db.username=your_postgres_username
+db.password=your_postgres_password
+```
 
----
+### Step 7: Build and Run
+Build the project to resolve all dependencies and then run the Main.java file from your IDE.
 
-## Contributing
+-----
 
-Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
+## 🤝 How to Contribute
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
+Contributions are welcome\! If you'd like to improve the project, please follow these steps:
 
----
+1.  Fork the repository.
+2.  Create a new branch for your feature (`git checkout -b feature/NewFeature`).
+3.  Commit your changes (`git commit -m 'Add some NewFeature'`).
+4.  Push to the branch (`git push origin feature/NewFeature`).
+5.  Open a Pull Request.
 
-## License
+-----
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+## 👨‍💻 Authors
 
----
+This project was developed by:
 
-## Contact
-
-For support or questions, please open an issue or contact the maintainer at [your-email@example.com].
+-   **Mitesh Patel** - [GitHub Profile](https://github.com/Mitesh0101)
+-   **Jimit Patel** - [Github Profile](https://github.com/JimitPatel26)
+-   **Nihal Vohra** - [Github Profile](https://github.com/ernihalai)
