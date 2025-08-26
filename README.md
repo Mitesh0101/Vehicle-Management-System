@@ -173,4 +173,4 @@ This project was developed by:
 
 -   **Mitesh Patel** - [GitHub Profile](https://github.com/Mitesh0101)
 -   **Jimit Patel** - [Github Profile](https://github.com/JimitPatel26)
--   **Nihal Vohra** - [Github Profile](https://github.com/ernihalai)
+-   **Nihal Vohra** - [Github Profile](https://github.com/NihalVohra0308)
