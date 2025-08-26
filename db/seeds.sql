@@ -1,4 +1,12 @@
 -- NECESSARY DATA INSERTION
+-- inserting different vehicle categories
+INSERT INTO vehicle_category (category_name, description) VALUES
+('MCWOG', 'Motor Cycle Without Gear'),
+('MCWG', 'Motor Cycle With Gear'),
+('LMV', 'Light Motor Vehicle'),
+('HPMV', 'Heavy Passenger Motor Vehicle'),
+('HGMV', 'Heavy Goods Motor Vehicle');
+
 -- inserting driving exam questions for different categories
 INSERT INTO driving_exam_questions (category_id, question_text, option_1, option_2, option_3, option_4, correct_answer) VALUES
 (1, 'What does a flashing red traffic light indicate?', 'Stop and proceed when safe.', 'Yield to oncoming traffic.', 'Proceed with caution.', 'Speed up.', 1),
@@ -100,14 +108,6 @@ INSERT INTO driving_exam_questions (category_id, question_text, option_1, option
 (5, 'What is the safest way to manage your speed while descending a long hill?', 'Downshift and use the engine brake to control speed.', 'Use the service brakes continuously.', 'Put the vehicle in neutral.', 'Accelerate to get down faster.', 1),
 (5, 'What is the maximum width of a motor vehicle in India?', '1.5 meters.', '2.5 meters.', '3.5 meters.', '4.0 meters.', 2),
 (5, 'What is the most important thing to check on a heavy vehicle before every journey?', 'The music system.', 'Lights, brakes, tires, and load security.', 'The number of passengers.', 'The air conditioning.', 2);
-
--- inserting different vehicle categories
-INSERT INTO vehicle_category (category_name, description) VALUES
-('MCWOG', 'Motor Cycle Without Gear'),
-('MCWG', 'Motor Cycle With Gear'),
-('LMV', 'Light Motor Vehicle'),
-('HPMV', 'Heavy Passenger Motor Vehicle'),
-('HGMV', 'Heavy Goods Motor Vehicle');
 
 -- inserting an officer
 INSERT INTO users (username, password_hash, role, name, dob, address, email, phone, state) VALUES
