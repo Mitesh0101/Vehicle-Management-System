@@ -35,8 +35,8 @@ public class ProfileSettingsController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         Platform.runLater(() -> {
             if (SessionUtils.isUser()) {
-                adminSidebarPane.setVisible(false);
                 sidebarPane.setVisible(true);
+                adminSidebarPane.setVisible(false);
                 Button profileButton = (Button) sidebarPane.lookup("#viewProfileSettingsButton");
                 if (profileButton != null) {
                     profileButton.getStyleClass().add("selected-sidebar-button");

@@ -12,7 +12,7 @@
 
 <AnchorPane prefHeight="864.0" prefWidth="1536.0" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.UpdateProfileDetailsController">
     <children>
-        <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" text="mVaahan Portal">
+        <Label prefHeight="80.0" prefWidth="1587.0" styleClass="header-label" text="mVaahan Portal">
             <font>
                 <Font size="24.0" />
             </font>
@@ -116,7 +116,7 @@
                   <ChoiceBox fx:id="getState" prefHeight="163.0" prefWidth="953.0" style="-fx-font-size: 20px; -fx-font-family: &quot;Times New Roman&quot;;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                </children>
             </GridPane>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="1.0" prefHeight="101.0" prefWidth="1342.0" styleClass="dashboard-title" text="Profile">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="1.0" prefHeight="101.0" prefWidth="1367.0" styleClass="dashboard-title" text="Profile">
                <font>
                   <Font size="36.0" />
                </font>

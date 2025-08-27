@@ -9,23 +9,23 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="864.0" prefWidth="1536.0" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.ViewLicenseController">
+<AnchorPane prefHeight="327.0" prefWidth="1587.0" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.ViewLicenseController">
     <children>
-        <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" text="mVaahan Portal">
+        <Label prefHeight="80.0" prefWidth="1587.0" styleClass="header-label" text="mVaahan Portal">
             <font>
                 <Font size="24.0" />
             </font>
         </Label>
         <fx:include source="Sidebar.fxml" />
        <fx:include fx:id="sidebarPane" source="Sidebar.fxml" />
-       <AnchorPane fx:id="licensePane" layoutX="221.0" layoutY="80.0" prefHeight="774.0" prefWidth="1351.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
+       <AnchorPane fx:id="licensePane" layoutX="221.0" layoutY="80.0" prefHeight="783.0" prefWidth="1366.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
          <children>
-            <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1342.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="License Details">
+            <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1366.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="License Details">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <GridPane layoutX="76.0" layoutY="88.0" prefHeight="558.0" prefWidth="1164.0">
+            <GridPane layoutX="101.0" layoutY="113.0" prefHeight="558.0" prefWidth="1164.0">
                <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -101,41 +101,41 @@
                   </Label>
                </children>
             </GridPane>
-            <Button fx:id="takeExamButton" layoutX="414.0" layoutY="646.0" mnemonicParsing="false" onAction="#takeExam" prefHeight="79.0" prefWidth="244.0" styleClass="header-label" stylesheets="@dashboard.css" text="Take Exam">
+            <Button fx:id="takeExamButton" layoutX="564.0" layoutY="660.0" mnemonicParsing="false" onAction="#takeExam" prefHeight="79.0" prefWidth="244.0" styleClass="header-label" stylesheets="@dashboard.css" text="Take Exam">
                <font>
                   <Font size="30.0" />
                </font>
             </Button>
-            <Button fx:id="renewLicenseButton" layoutX="671.0" layoutY="646.0" mnemonicParsing="false" onAction="#renewLicense" prefHeight="79.0" prefWidth="244.0" styleClass="header-label" stylesheets="@dashboard.css" text="Renew License" visible="false">
+            <Button fx:id="renewLicenseButton" layoutX="561.0" layoutY="660.0" mnemonicParsing="false" onAction="#renewLicense" prefHeight="79.0" prefWidth="244.0" styleClass="header-label" stylesheets="@dashboard.css" text="Renew License" visible="false">
                <font>
                   <Font size="30.0" />
                </font>
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="noLicensePane" layoutX="221.0" layoutY="80.0" prefHeight="774.0" prefWidth="1351.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
+      <AnchorPane fx:id="noLicensePane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1366.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
          <children>
-            <Label alignment="CENTER" layoutY="183.0" prefHeight="102.0" prefWidth="1289.0" styleClass="header-label" stylesheets="@dashboard.css" text="No License Available">
+            <Label alignment="CENTER" layoutX="30.0" layoutY="176.0" prefHeight="102.0" prefWidth="1289.0" styleClass="header-label" stylesheets="@dashboard.css" text="No License Available">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Button fx:id="takeDrivingExamButton" layoutX="472.0" layoutY="480.0" mnemonicParsing="false" onAction="#takeExam" prefHeight="115.0" prefWidth="367.0" styleClass="header-label" stylesheets="@dashboard.css" text="Take Driving Exam">
+            <Button fx:id="takeDrivingExamButton" layoutX="505.0" layoutY="484.0" mnemonicParsing="false" onAction="#takeExam" prefHeight="115.0" prefWidth="367.0" styleClass="header-label" stylesheets="@dashboard.css" text="Take Driving Exam">
                <font>
                   <Font size="36.0" />
                </font>
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="takeDrivingExamPane" layoutX="221.0" layoutY="80.0" prefHeight="787.0" prefWidth="1360.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
+      <AnchorPane fx:id="takeDrivingExamPane" layoutX="221.0" layoutY="80.0" prefHeight="787.0" prefWidth="1365.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
          <children>
-            <Label alignment="CENTER" layoutX="155.0" layoutY="274.0" prefHeight="51.0" prefWidth="1051.0" text="Please select the type of driving license you want to apply for the exam" textAlignment="CENTER">
+            <Label alignment="CENTER" layoutX="143.0" layoutY="234.0" prefHeight="51.0" prefWidth="1051.0" text="Please select the type of driving license you want to apply for the exam" textAlignment="CENTER">
                <font>
                   <Font size="30.0" />
                </font>
             </Label>
-            <ChoiceBox fx:id="examTypeChoiceBox" layoutX="551.0" layoutY="352.0" prefHeight="42.0" prefWidth="259.0" style="-fx-background-radius: 50;" />
-            <Button fx:id="submitButton" layoutX="551.0" layoutY="446.0" mnemonicParsing="false" onAction="#submit" prefHeight="79.0" prefWidth="244.0" styleClass="header-label" stylesheets="@dashboard.css" text="Submit">
+            <ChoiceBox fx:id="examTypeChoiceBox" layoutX="539.0" layoutY="312.0" prefHeight="42.0" prefWidth="259.0" style="-fx-background-radius: 50;" />
+            <Button fx:id="submitButton" layoutX="539.0" layoutY="406.0" mnemonicParsing="false" onAction="#submit" prefHeight="79.0" prefWidth="244.0" styleClass="header-label" stylesheets="@dashboard.css" text="Submit">
                <font>
                   <Font size="30.0" />
                </font>

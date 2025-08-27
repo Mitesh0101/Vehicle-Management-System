@@ -13,7 +13,7 @@
    <children>
       <fx:include source="AdminSidebar.fxml" />
       <fx:include fx:id="adminSidebarPane" source="AdminSidebar.fxml" />
-      <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" stylesheets="@dashboard.css" text="mVaahan Portal">
+      <Label prefHeight="80.0" prefWidth="1589.0" styleClass="header-label" stylesheets="@dashboard.css" text="mVaahan Portal">
          <font>
             <Font size="24.0" />
          </font>

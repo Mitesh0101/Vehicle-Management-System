@@ -13,12 +13,12 @@
    <children>
       <fx:include source="AdminSidebar.fxml" />
       <fx:include fx:id="adminSidebarPane" source="AdminSidebar.fxml" />
-      <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" stylesheets="@dashboard.css" text="mVaahan Portal">
+      <Label prefHeight="80.0" prefWidth="1586.0" styleClass="header-label" stylesheets="@dashboard.css" text="mVaahan Portal">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="vehicleDetailsPane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1358.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
+      <AnchorPane fx:id="vehicleDetailsPane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1365.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
          <children>
             <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1342.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="Vehicle Details">
                <font>
@@ -159,7 +159,7 @@
             <Button fx:id="goBackToSearchButton" layoutX="1098.0" layoutY="657.0" mnemonicParsing="false" onAction="#goBackToSearch" prefHeight="80.0" prefWidth="164.0" styleClass="header-label" stylesheets="@dashboard.css" text="Back" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="searchVehiclePane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1358.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
+      <AnchorPane fx:id="searchVehiclePane" layoutX="221.0" layoutY="80.0" prefHeight="784.0" prefWidth="1365.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
          <children>
             <GridPane layoutX="341.0" layoutY="301.0" prefHeight="184.0" prefWidth="677.0">
               <columnConstraints>

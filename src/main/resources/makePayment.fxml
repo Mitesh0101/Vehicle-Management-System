@@ -12,7 +12,7 @@
 
 <AnchorPane prefHeight="864.0" prefWidth="1536.0" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.MakePaymentController">
     <children>
-        <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" text="mVaahan Portal">
+        <Label prefHeight="80.0" prefWidth="1588.0" styleClass="header-label" text="mVaahan Portal">
             <font>
                 <Font size="24.0" />
             </font>
@@ -68,8 +68,8 @@
                         <Insets top="40.0" />
                     </padding>
                 </VBox>
-                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" prefHeight="101.0" prefWidth="1342.0" styleClass="dashboard-title" text="Payment Process" />
-                <Button fx:id="proccessPaymentButton" layoutX="545.0" layoutY="647.0" mnemonicParsing="false" onAction="#makePayment" prefHeight="80.0" prefWidth="253.0" styleClass="header-label" text="Make Payment" />
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" prefHeight="101.0" prefWidth="1367.0" styleClass="dashboard-title" text="Payment Process" />
+                <Button fx:id="proccessPaymentButton" layoutX="565.0" layoutY="647.0" mnemonicParsing="false" onAction="#makePayment" prefHeight="80.0" prefWidth="253.0" styleClass="header-label" text="Make Payment" />
             </children>
         </AnchorPane>
     </children>

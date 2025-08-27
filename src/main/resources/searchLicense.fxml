@@ -9,16 +9,16 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.SearchLicenseController">
+<AnchorPane prefHeight="824.0" prefWidth="1588.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.SearchLicenseController">
    <children>
       <fx:include source="AdminSidebar.fxml" />
       <fx:include fx:id="adminSidebarPane" source="AdminSidebar.fxml" />
-      <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" stylesheets="@dashboard.css" text="mVaahan Portal">
+      <Label prefHeight="80.0" prefWidth="1588.0" styleClass="header-label" stylesheets="@dashboard.css" text="mVaahan Portal">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="searchLicensePane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1358.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
+      <AnchorPane fx:id="searchLicensePane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1367.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
          <children>
             <GridPane layoutX="309.0" layoutY="301.0" prefHeight="184.0" prefWidth="740.0">
               <columnConstraints>
@@ -45,14 +45,14 @@
             </GridPane>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="viewLicensePane" layoutX="221.0" layoutY="80.0" prefHeight="774.0" prefWidth="1351.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
+      <AnchorPane fx:id="viewLicensePane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1367.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
          <children>
-            <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1342.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="License Details">
+            <Label alignment="CENTER" layoutX="9.0" layoutY="3.0" prefHeight="102.0" prefWidth="1342.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="License Details">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <GridPane layoutX="76.0" layoutY="88.0" prefHeight="558.0" prefWidth="1164.0">
+            <GridPane layoutX="84.0" layoutY="120.0" prefHeight="558.0" prefWidth="1164.0">
                <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -128,7 +128,7 @@
                   </Label>
                </children>
             </GridPane>
-            <Button fx:id="goBackToSearchButton" layoutX="1015.0" layoutY="646.0" mnemonicParsing="false" onAction="#goBackToSearch" prefHeight="80.0" prefWidth="225.0" styleClass="header-label" stylesheets="@dashboard.css" text="Back" />
+            <Button fx:id="goBackToSearchButton" layoutX="1023.0" layoutY="678.0" mnemonicParsing="false" onAction="#goBackToSearch" prefHeight="80.0" prefWidth="225.0" styleClass="header-label" stylesheets="@dashboard.css" text="Back" />
          </children>
       </AnchorPane>
    </children>

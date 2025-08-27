@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="864.0" prefWidth="1536.0" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.ViewChallanDetailsController">
     <children>
-        <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" text="mVaahan Portal">
+        <Label prefHeight="80.0" prefWidth="1587.0" styleClass="header-label" text="mVaahan Portal">
             <font>
                 <Font size="24.0" />
             </font>
@@ -19,7 +19,7 @@
        <fx:include fx:id="sidebarPane" source="Sidebar.fxml" />
       <AnchorPane fx:id="challanDetailsPane" layoutX="221.0" layoutY="80.0" prefHeight="774.0" prefWidth="1366.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
          <children>
-            <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1342.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="Challan Details">
+            <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1366.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="Challan Details">
                <font>
                   <Font size="48.0" />
                </font>

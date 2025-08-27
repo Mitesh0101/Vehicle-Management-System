@@ -10,16 +10,16 @@
 
 <AnchorPane prefHeight="864.0" prefWidth="1536.0" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.ViewVehicleDetailsController">
     <children>
-        <Label prefHeight="80.0" prefWidth="1536.0" styleClass="header-label" text="mVaahan Portal">
+        <Label prefHeight="80.0" prefWidth="1587.0" styleClass="header-label" text="mVaahan Portal">
             <font>
                 <Font size="24.0" />
             </font>
         </Label>
         <fx:include source="Sidebar.fxml" />
        <fx:include fx:id="sidebarPane" source="Sidebar.fxml" />
-      <AnchorPane fx:id="vehicleDetailsPane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1358.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
+      <AnchorPane fx:id="vehicleDetailsPane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1365.0" styleClass="anchor-pane" stylesheets="@dashboard.css" visible="false">
          <children>
-            <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1342.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="Vehicle Details">
+            <Label alignment="CENTER" layoutY="-2.0" prefHeight="102.0" prefWidth="1365.0" styleClass="dashboard-title" stylesheets="@dashboard.css" text="Vehicle Details">
                <font>
                   <Font size="48.0" />
                </font>
@@ -162,9 +162,9 @@
             <Button fx:id="renewRCButton" layoutX="671.0" layoutY="657.0" mnemonicParsing="false" onAction="#renewRC" prefHeight="80.0" prefWidth="199.0" styleClass="header-label" stylesheets="@dashboard.css" text="Renew RC" visible="false" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="noVehiclesFoundPane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1358.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
+      <AnchorPane fx:id="noVehiclesFoundPane" layoutX="221.0" layoutY="80.0" prefHeight="785.0" prefWidth="1366.0" styleClass="anchor-pane" stylesheets="@dashboard.css">
          <children>
-            <Label alignment="CENTER" layoutX="8.0" layoutY="342.0" prefHeight="102.0" prefWidth="1279.0" styleClass="header-label" stylesheets="@dashboard.css" text="No Vehicles Found">
+            <Label alignment="CENTER" layoutX="41.0" layoutY="343.0" prefHeight="102.0" prefWidth="1279.0" styleClass="header-label" stylesheets="@dashboard.css" text="No Vehicles Found">
                <font>
                   <Font size="48.0" />
                </font>
