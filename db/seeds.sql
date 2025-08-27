@@ -111,4 +111,4 @@ INSERT INTO driving_exam_questions (category_id, question_text, option_1, option
 
 -- inserting an officer
 INSERT INTO users (username, password_hash, role, name, dob, address, email, phone, state) VALUES
-('vikram_singh_rto', '321drowssap#123', 'Officer', 'Vikram Singh', '1985-07-22', 'RTO Zonal Office, Subhash Bridge, Ahmedabad', 'vikram.singh.rto@gov.in', '9898012345', 'Gujarat');
+('VikramSinghRTO', '321drowssap#123', 'Officer', 'Vikram Singh', '1985-07-22', 'RTO Zonal Office, Subhash Bridge, Ahmedabad', 'vikram.singh.rto@gov.in', '9898012345', 'Gujarat');
