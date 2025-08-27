@@ -33,17 +33,17 @@ public class VehicleRepository extends Repository {
             PreparedStatement pst = DatabaseConfig.getConnection().prepareStatement(INSERT_VEHICLE_SQL);
             Vehicle vehicle = (Vehicle) obj;
             pst.setString(1, vehicle.getLicense_plate());
-            pst.setString(2, vehicle.getLicense_number());
+            pst.setInt(2, vehicle.getUser_id());
             pst.setInt(3, vehicle.getCategory_id());
             pst.setString(4, vehicle.getEngine_number());
             pst.setString(5, vehicle.getChassis_number());
             pst.setDate(6, Date.valueOf(vehicle.getInsurance_expiry_date()));
             pst.setDate(7, Date.valueOf(vehicle.getPuc_expiry_date()));
-            pst.setString(8, vehicle.getStatus());
-            pst.setString(9, vehicle.getVname());
-            pst.setInt(10, vehicle.getUser_id());
-            pst.setString(11, vehicle.getState());
-            pst.setDate(12, Date.valueOf(vehicle.getRc_expiry_date()));
+            pst.setDate(8, Date.valueOf(vehicle.getRc_expiry_date()));
+            pst.setString(9, vehicle.getStatus());
+            pst.setString(10, vehicle.getVname());
+            pst.setString(11, vehicle.getLicense_number());
+            pst.setString(12, vehicle.getState());
             pst.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
